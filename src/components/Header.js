@@ -1,8 +1,9 @@
 import {MainMenu} from "./MainMenu";
+import {HeaderContainer} from "../styles/HeaderContainer";
 
 export const Header = () => {
-    return <header>
-                <h1>My Movies</h1>
-                <MainMenu/>
-            </header>
+    return <HeaderContainer>
+        <h1>My Movies</h1>
+        <MainMenu/>
+    </HeaderContainer>
 };
