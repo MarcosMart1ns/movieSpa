@@ -8,6 +8,7 @@ import {
     Link
 } from "react-router-dom";
 import {About} from "./view/About";
+import {MovieDetail} from "./view/MovieDetail";
 
 function App() {
     return (
@@ -17,6 +18,9 @@ function App() {
                 <Switch>
                     <Route path="/about">
                         <About/>
+                    </Route>
+                    <Route path="/movie/:id">
+                        <MovieDetail/>
                     </Route>
                     <Route>
                         <Route path="/">
